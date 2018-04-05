@@ -1,3 +1,3 @@
 # assignment4
 
-Group project for Web Dynamics
+Group Project for Web Dynamics
