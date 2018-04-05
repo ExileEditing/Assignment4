@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<!-- 
+    Web Dynamics - Assignment 4
+    Created By: Lucas Winkler and Leonard Vuniqi
+	Page: checkout.html
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Purchase books online!">
+    <meta name="keywords" content="books, online, shopping">
+    <meta name="author" content="Lucas Winkler, Leonard Vuniqi">
+    <title>Book-A-Zon</title>
+    <link type="text/css" href="../styles/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="../styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-title">
+                <h2>B O O K - A - Z O N</h2>
+            </div>
+        </div>
+    </header>
+
+    <form action="submit">
+        <table class="table-container">
+            <tr>
+                <th>Book Name</th>
+                <th>Quantity</th>
+                <th>Individual Price</th>
+                <th>Total Price</th>
+            </tr>
+            <tr>
+                <td>Harry Potter and the Order of the Phoenix</td>
+                <td>1</td>
+                <td>12.99</td>
+                <td>12.99</td>
+            </tr>
+            <tr>
+                <td>The Eye of the World</td>
+                <td>2</td>
+                <td>8.99</td>
+                <td>17.98</td>
+            </tr>
+        </table>
+        <div class="text-center checkout-message">
+            <p>Thanks for stopping by Book-A-Zon!<br />Your total is: $0.00.<br />You can checkout now or empty your cart.</p>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-success">Checkout</button>
+            <button type="button" class="btn btn-danger">Empty Cart</button>
+        </div>
+    </form>
+
+    <footer class="nav-bar-brown navbar-dark">
+        <p>Copyright &copy; 2018 - Lucas Winkler and Leonard Vuniqi</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="../scripts/jquery/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../scripts/jquery/jquery-ui.js"></script>
+    <script type="text/javascript" src="../scripts/bootstrap/bootstrap.js"></script>
+</body>
+
+</html>
