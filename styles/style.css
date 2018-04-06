@@ -95,7 +95,7 @@ img {
     width: 15px;
     height: 15px;
 }
-#btnAddToCart {
+#btnAddToCartHP, #btnAddToCartWT, #btnAddToCartP1 {
     width: 100px;
     bottom: 7px;
     right:5px;
