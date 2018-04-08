@@ -101,7 +101,7 @@
         <br />
         <!-- Order Form -->
         <div style="background:saddlebrown !important" class="jumbotron">
-            <form method="post">
+            <form method="post" action="php/receipt.php">
                 <h2 style="color:white !important" class="display-4">Order Form</h2>
                 <p style="color:white !important" class="lead">Order form and confirmation!</p>
                 <hr class="my-4">
@@ -155,9 +155,10 @@
                             <span class="input-group-text" id="">CCV</span>
                         </div>
                         <input type="text" class="form-control" id="ccv" name="ccv" placeholder="123" readonly>
+                        
                     </div>
                     <!-- End Order Form -->
-            </form>
+            <!--</form>-->
             <br />
             <!-- Order Details Table -->
             <p style="color:white !important" class="lead">Order Details</p>
@@ -177,6 +178,8 @@
             </table>
             <!-- End Order Details Table -->
             </p>
+            <input class="btn btn-primary" type="submit" value="Submit">
+            </form>
         </div>
     </div>
 
