@@ -1,7 +1,3 @@
-/*
-	My CSS
-*/
-
 .table-container,
 td,
 th {
@@ -67,10 +63,6 @@ footer p {
     font-size: 12px;
 }
 
-/*
-	Leos CSS
-*/
-
 body {
     background-color: antiquewhite;
 }
@@ -119,4 +111,9 @@ h1{
 
 .nav-bar-brown {
 	background-color: saddlebrown;
+}
+
+#submitButton {
+    position: relative;
+    margin: auto;
 }
