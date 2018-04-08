@@ -14,7 +14,7 @@
     <meta name="description" content="Purchase books online!">
     <meta name="keywords" content="books, online, shopping">
     <meta name="author" content="Lucas Winkler, Leonard Vuniqi">
-    <title>Book-A-Zon</title>
+    <title>Book-A-Zon - Checkout</title>
     <link type="text/css" href="../styles/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" href="../styles/style.css" rel="stylesheet">
 </head>
@@ -28,7 +28,7 @@
         </div>
     </header>
 
-    <form action="submit">
+    <form action="../php/receipt.php" method="post">
         <table class="table-container">
             <tr>
                 <th>Book Name</th>
@@ -53,7 +53,7 @@
             <p>Thanks for stopping by Book-A-Zon!<br />Your total is: $0.00.<br />You can checkout now or empty your cart.</p>
         </div>
         <div class="text-center">
-            <button type="button" class="btn btn-success">Checkout</button>
+            <button type="submit" class="btn btn-success">Checkout</button>
             <button type="button" class="btn btn-danger">Empty Cart</button>
         </div>
     </form>
